@@ -27,7 +27,7 @@ getGeoData <- function(latlng, api_key){
 a<-as.numeric(geocode('277 Bedford Ave, Brooklyn, NY 11211'))
 
 
-dat<-getGeoData(paste(rev(a), collapse = ","))
+dat.locationDetail<-getGeoData(paste(rev(a), collapse = ","),api_key = 'xxxxxxx')
 
 
 
